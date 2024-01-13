@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Tektur:wght@700&display=swap');
+
+body{
+  font-family: 'Tektur', sans-serif;
+  background: url('background.jpg') fixed;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 25px;
+}
+button{
+  width: 175 px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 20px;
+  background-color: rgb(119, 184, 82);
+}
+.Sokoban
+{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+}
+
+.Header
+{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 5vh;
+}
+ 
+.Navigation
+{
+  display: flex;
+  justify-content: center;
+}
+ 
+.Navigation ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ 
+.Navigation li
+{
+  margin: 0 15px; /* Increased margin for better spacing */
+}
+ 
+.Buttons
+{
+  text-decoration: none;
+  padding: 15px 30px; /* Increased padding for larger buttons */
+  background-color: #12127d;
+  color: snow;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2em; /* Adjusted font size for buttons */
+  transition: background-color 0.3s;
+  width: 5vw;
+}
+ 
+.Buttons:hover
+{
+  background-color: #e1e328;
+  color: black;
+}
